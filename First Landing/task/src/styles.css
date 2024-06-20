@@ -1,0 +1,180 @@
+/* Set the maximum height of the body to 100vh */
+body {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+/* Set the minimum height of the header, main, and footer */
+header {
+    min-height: 10vh;
+}
+
+main {
+    min-height: 60vh;
+}
+
+footer {
+    min-height: 30vh;
+    max-width: 100%;
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Navbar styles */
+nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px; /* Adjust padding as per your design */
+    background-color: #f0f0f0; /* Example background color */
+}
+
+nav a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Adjust padding as per your design */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #555; /* Color on hover */
+}
+
+/* Center align text inside #home div */
+#home {
+    text-align: center;
+    overflow: hidden; /* Hide overflowing content */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style the h1 inside #home */
+#home h1 {
+    font-size: 2em; /* Example font size */
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+/* Style the paragraph inside #home */
+#home p {
+    font-size: 1.2em; /* Example adjusted font size */
+    font-weight: bold; /* Example font weight */
+}
+
+/* Style the anchor tag to look like a button */
+#home a.button-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #333; /* Example border style */
+    border-radius: 5px; /* Example border radius */
+    font-size: 1em; /* Example font size */
+    color: #fff; /* Example text color */
+    background-color: #007bff; /* Example background color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the button */
+#home a.button-link:hover {
+    background-color: #0056b3; /* Darker shade of the background color */
+    color: #fff; /* Adjust text color on hover */
+}
+
+/* Flex layout for product section */
+#product {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: space-around; /* Adjust alignment as needed */
+    padding: 20px; /* Add padding around the products */
+}
+
+/* Column styles */
+#col-1, #col-2 {
+    flex: 1; /* Equal width columns */
+    text-align: center; /* Center align text */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Image styles */
+#col-1 img, #col-2 img {
+    width: 100%; /* Responsive width */
+    max-width: 200px; /* Example max width */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Content (h2 and p) styles */
+#col-1 > div, #col-2 > div {
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+#col-1 h2, #col-2 h2 {
+    font-size: 1.5em; /* Example font size */
+    font-weight: bold; /* Example font weight */
+}
+
+#col-1 p, #col-2 p {
+    font-size: 1em; /* Example font size */
+}
+
+/* Footer styles */
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the content */
+    align-items: center; /* Center align items vertically */
+}
+
+#contact-col1 {
+    max-width: 100%;
+    text-align: center; /* Center align text */
+}
+
+#contact-col1 div {
+    margin-top: 10px; /* Add margin to separate the links from the logo */
+}
+
+#contact-col1 p {
+    margin-top: 10px; /* Add margin to separate the paragraph from the links */
+    color: #333; /* Text color */
+    font-size: 1em; /* Font size */
+}
+
+/* Contact form styles */
+#contact-col2 {
+    max-width: 100%;
+    text-align: center; /* Center align text */
+}
+
+#contact-col2 form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center align form elements */
+}
+
+#contact-col2 form div {
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+#contact-col2 label {
+    display: block; /* Make label a block element */
+    margin-bottom: 5px; /* Add margin below the label */
+}
+
+#contact-col2 input[type="email"],
+#contact-col2 input[type="checkbox"] {
+    margin-right: 10px; /* Add margin to the right of the checkbox */
+}
+
+#contact-col2 button {
+    padding: 10px 20px; /* Add padding to the button */
+    border: 1px solid #333; /* Border for the button */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#contact-col2 button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
